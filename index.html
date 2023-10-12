@@ -1,78 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" type=text/css href="/styles.css"/>
-  </head>
-  <body>
-    <header class="header">
-      <!--NAVBAR-->
-      <img
-        src="/integrador/assets/e111d62fa03c478895722350036abf0e__1_-removebg-preview.png"
-        alt="placeholder"
-        class="logo"
-      />
-      <nav class="navbar">
-        <ul class="nav-list">
-          <li class="font"><a href="#">Home</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#">Catalogo</a></li>
-          <li><a href="#">Delivery</a></li>
-          <li><a href="#">Contactanos</a></li>
-        </ul>
-      </nav>
-      <img src="http://placehold.it/" alt="placeholder" class="Usuario" />
-    </header>
-    <main>
-      <!--HERO-->
-      <section id="hero">
-        <div class="hero-info">
-          <div class="hero-tittle">
-            <h2>El placer de lo dulce:</h2>
-            <h1>Bienvenido a Casacake</h1>
-          </div>
-          <div class="hero-text">
-            <h3>Explora nuestra variedad de pasteles, postres y más</h3>
-          </div>
-          <button>Comprar ahora</button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" type=text/css href="/styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <!--NAVBAR-->
+    <img src="/assets/logo.png" alt="placeholder"
+      class="logo" />
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li class="font"><a href="#">Home</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Catalogo</a></li>
+        <li><a href="#">Delivery</a></li>
+        <li><a href="#">Contactanos</a></li>
+      </ul>
+    </nav>
+    <img src="http://placehold.it/" alt="placeholder" class="Usuario" />
+  </header>
+  <main>
+    <!--HERO-->
+    <section id="hero">
+      <div class="hero-info">
+        <div class="hero-tittle">
+          <h2>El placer de lo dulce:</h2>
+          <h1>Bienvenido a Casacake</h1>
         </div>
+        <div class="hero-text">
+          <h3>Explora nuestra variedad de pasteles, postres y más</h3>
+        </div>
+        <button>Comprar ahora</button>
+      </div>
+      <!--
         <div class="hero-img">
           <img
             src="/integrador/assets/Imagen de WhatsApp 2023-10-09 a las 00.10.41_b920287a.jpg"
             alt="portada"
           />
-        </div>
-      </section>
-      <!--ABOUT-->
-      <section id="about">
-        <div class="row-1">
-          <img src="/integrador/assets/torta.jpg" alt="torta" class="cake" />
-          <div class="about-text">
-            <h2>Acerca de Casacake</h2>
-            <h3>
-              Desde bodas y cumpleaños hasta eventos corporativos y reuniones
-              familiares, estamos aquí para hacer que cada ocasión sea única y
-              deliciosa. Nuestro compromiso con la calidad, la creatividad y la
-              satisfacción del cliente nos ha convertido en la elección
-              preferida de quienes buscan autenticidad y sabor en cada bocado.
-            </h3>
+        </div>-->
+
+      <div class="carousel">
+        <div class="carousel-controls">
+          <input id="1" type="radio" name="controls" checked />
+          <input id="2" type="radio" name="controls" />
+          <input id="3" type="radio" name="controls" />
+          <div class="dots">
+            <label for="1"></label>
+            <label for="2"></label>
+            <label for="3"></label>
+          </div>
+          <div class="carousel-images">
+            <img src="/assets/cake-1.jpeg" alt="portada1" />
+            <img src="/assets/cake-2.jpeg" alt="portada2" />
+            <img src="/assets/cake-3.jpeg" alt="portada3" />
           </div>
         </div>
-        <div class="row-2">
-          <img
-            src="/integrador/assets/porcion.jpg"
-            alt="porcion de torta"
-            class="slice"
-          />
-          <img
-            src="/integrador/assets/cupcake.jpg"
-            alt="magdalena"
-            class="cupcake"
-          />
+      </div>
+    </section>
+    <!--ABOUT-->
+    <section id="about">
+      <div class="row-1">
+        <img src="/assets/torta.jpg" alt="torta" class="cake" />
+        <div class="about-text">
+          <h2>Acerca de Casacake</h2>
+          <h3>
+            Desde bodas y cumpleaños hasta eventos corporativos y reuniones
+            familiares, estamos aquí para hacer que cada ocasión sea única y
+            deliciosa. Nuestro compromiso con la calidad, la creatividad y la
+            satisfacción del cliente nos ha convertido en la elección
+            preferida de quienes buscan autenticidad y sabor en cada bocado.
+          </h3>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+      <div class="row-2">
+        <img src="/assets/porcion.jpg" alt="porcion de torta" class="slice" />
+        <img src="/assets/cupcake.jpg" alt="magdalena" class="cupcake" />
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
