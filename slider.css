@@ -1,10 +1,3 @@
-.carousel {
-  overflow: hidden;
-  position: relative;
-  width: 40vw;
-  height: 70vh;
-}
-
 .carousel-images {
   position: absolute;
   top: 0;
@@ -85,9 +78,9 @@ input:nth-child(1):checked ~ .carousel-images {
 }
 
 input:nth-child(2):checked ~ .carousel-images {
-  translate: -40vw;
+  translate: -100vw;
 }
 
 input:nth-child(3):checked ~ .carousel-images {
-  translate: -80vw;
+  translate: -200vw;
 }
