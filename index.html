@@ -4,16 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" type=text/css href="/styles.css"/>
+    <link rel="stylesheet" type=text/css href="/styles.css" />
   </head>
+
   <body>
     <header class="header">
       <!--NAVBAR-->
-      <img
-        src="/integrador/assets/e111d62fa03c478895722350036abf0e__1_-removebg-preview.png"
-        alt="placeholder"
-        class="logo"
-      />
+      <img src="/assets/logo.png" alt="placeholder" class="logo" />
       <nav class="navbar">
         <ul class="nav-list">
           <li class="font"><a href="#">Home</a></li>
@@ -36,25 +33,38 @@
           <div class="hero-text">
             <h3>Explora nuestra variedad de pasteles, postres y más</h3>
           </div>
-
-          <div class="button-conteiner"><button class="bubbly-button">Comprar ahora</button></div>
+          <button>Comprar ahora</button>
         </div>
-         
+        <!--
         <div class="hero-img">
           <img
             src="/integrador/assets/Imagen de WhatsApp 2023-10-09 a las 00.10.41_b920287a.jpg"
             alt="portada"
           />
-        </div> 
-        
-        
-        </div>
+        </div>-->
 
+        <div class="carousel">
+          <div class="carousel-controls">
+            <input id="1" type="radio" name="controls" checked />
+            <input id="2" type="radio" name="controls" />
+            <input id="3" type="radio" name="controls" />
+            <div class="dots">
+              <label for="1"></label>
+              <label for="2"></label>
+              <label for="3"></label>
+            </div>
+            <div class="carousel-images">
+              <img src="/assets/cake-1.jpeg" alt="portada1" />
+              <img src="/assets/cake-2.jpeg" alt="portada2" />
+              <img src="/assets/cake-3.jpeg" alt="portada3" />
+            </div>
+          </div>
+        </div>
       </section>
       <!--ABOUT-->
       <section id="about">
         <div class="row-1">
-          <img src="/integrador/assets/torta.jpg" alt="torta" class="cake" />
+          <img src="/assets/torta.jpg" alt="torta" class="cake" />
           <div class="about-text">
             <h2>Acerca de Casacake</h2>
             <h3>
@@ -67,16 +77,8 @@
           </div>
         </div>
         <div class="row-2">
-          <img
-            src="/integrador/assets/porcion.jpg"
-            alt="porcion de torta"
-            class="slice"
-          />
-          <img
-            src="/integrador/assets/cupcake.jpg"
-            alt="magdalena"
-            class="cupcake"
-          />
+          <img src="/assets/porcion.jpg" alt="porcion de torta" class="slice" />
+          <img src="/assets/cupcake.jpg" alt="magdalena" class="cupcake" />
         </div>
       </section>
     </main>
