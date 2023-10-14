@@ -118,20 +118,6 @@ main {
   font-weight: 400;
 }
 
-/*BUTTON HERO*/
-.button-container {
-  text-align: center;
-}
-
-
-
-.bubbly-button:hover {
-  transform: scale(
-    1.1
-  ); /* Escala el botón al pasar el mouse para crear el efecto de burbuja */
-  box-shadow: 0 0 20px var(--tertiary);
-}
-
 /* .hero-img img {
   width: 500px;
   height: 600px;
@@ -140,7 +126,7 @@ main {
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
 } */
 
-/* ABOUT*/
+/*========================= ABOUT=============================*/
 #about {
   display: flex;
   flex-direction: column;
@@ -208,7 +194,7 @@ main {
   border-radius: 1rem;
 }
 
-/*INFO*/
+/*======================INFO=====================*/
 #info {
   padding: 70px 0;
   max-width: 1200px;
@@ -267,4 +253,47 @@ color: var(--tertiary);
   color: var(--secondary);
   line-height:1.75;
 
+}
+
+/*================CATALOG====================*/
+#catalog{
+  padding: 70px 0;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px
+}
+
+#catalog h2{
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--caqui);
+}
+
+/*================CATEGORIES====================*/
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.category {
+  
+  color: var(--tertiary);
+  border: solid 1px var(--tertiary);
+  padding: 10px 15px;
+  border-radius: 10%;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.active {
+  
+  background: var(--tertiary);
+  color: var(--primary);
 }

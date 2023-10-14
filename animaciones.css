@@ -1,4 +1,8 @@
-/* Button-hero*/
+/*BUTTON HERO*/
+.button-container {
+  text-align: center;
+}
+
 .bubbly-button {
   background-color: var(--tertiary);
   color: var(--primary);
@@ -12,6 +16,10 @@
   transition: all 0.3s ease-in-out; /* Duración y suavidad de la animación */
 }
 
+.bubbly-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px var(--tertiary);
+}
 
 /*Cards*/
 .info-card {
@@ -24,5 +32,7 @@
 }
 
 .info-card:hover {
-  transform: scale(1.10); /* Aumenta la escala cuando el cursor pasa por encima */
+  transform: scale(
+    1.1
+  ); /* Aumenta la escala cuando el cursor pasa por encima */
 }
