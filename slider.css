@@ -24,10 +24,6 @@
   justify-content: flex-end;
 }
 
-input {
-  display: none;
-}
-
 input,
 label {
   position: relative;
