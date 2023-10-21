@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CasaCake</title>
     <link rel="stylesheet" type=text/css href="/styles.css" />
+    <link rel="stylesheet" type=text/css href="/css/mediaqueries.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
 
   <body>
@@ -12,6 +14,11 @@
       <!--NAVBAR-->
       <img src="/assets/logo.png" alt="placeholder" class="logo" />
       <nav class="navbar">
+        <label for="toggle-menu" class="menu-label">
+          <img src="/assets/hamburguesa.png" alt="menu"> 
+        </label>
+        <input type="checkbox"  id="toggle-menu">
+        
         <ul class="nav-list">
           <li class="font"><a href="#hero">Home</a></li>
           <li><a href="#about">Nosotros</a></li>
@@ -19,11 +26,12 @@
           <li><a href="#catalog">Catalogo</a></li>
           <li><a href="#contact">Contactanos</a></li>
         </ul>
-      </nav>
-      <div class="usuario">
+        <div class="usuario">
         <a href="/login.html">Inicia Sesión </a>
-        <a href="#">Registrate</a>
+        <a href="/registro.html">Registrate</a>
       </div>
+      </nav>
+      
     </header>
     <main>
       <!--HERO-->
@@ -41,21 +49,7 @@
           </div>
         </div>
         <div class="hero-img">
-          <div class="carousel-controls">
-            <input id="1" type="radio" name="controls" checked />
-            <input id="2" type="radio" name="controls" />
-            <input id="3" type="radio" name="controls" />
-            <div class="dots">
-              <label for="1"></label>
-              <label for="2"></label>
-              <label for="3"></label>
-            </div>
-            <div class="carousel-images">
-              <img src="" alt="portada1" />
-              <img src="" alt="portada2" />
-              <img src="" alt="portada3" />
-            </div>
-          </div>
+          <img src="/assets/cake-1.png" alt="portada1" />
         </div>
       </section>
       <!--ABOUT-->
@@ -262,9 +256,9 @@
         </div>
         <div class="contact-info">
           <h2>Información de Contacto</h2>
-          <p><strong>Dirección:</strong> 123 Calle de la Pastelería</p>
+          <p><strong>Dirección:</strong> Calle Falsa 123</p>
           <p><strong>Teléfono:</strong> (555) 123-4567</p>
-          <p><strong>Correo Electrónico:</strong> info@tupasteleria.com</p>
+          <p><strong>Correo Electrónico:</strong> info@pasteleria.com</p>
         </div>
       </section>
     </main>
@@ -282,7 +276,7 @@
           <h3>Síguenos en Redes Sociales</h3>
           <div class="social-instagram">
             <img src="/assets/social/instagram (1).png" alt="instagram" />
-            <p>@casackae2023</p>
+            <p>@casacake2023</p>
           </div>
           <div class="social-facebook">
             <img src="/assets/social/facebook (1).png" alt="facebook" />

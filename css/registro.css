@@ -88,7 +88,7 @@ body {
   text-decoration: underline;
 }
 
-.wrapper .btn-login {
+.wrapper .btn-reg {
   width: 100%;
   height: 2.813rem;
   background: #bb053a;
@@ -101,10 +101,9 @@ body {
   font-weight: 600;
 }
 
-.btn-login:hover{
+.btn-reg:hover{
   background: #ff2e56;
 }
-
 .wrapper .register-link{
   font-size: 1rem;
   text-align: center;
