@@ -6,21 +6,28 @@
   }
 
   .nav-list {
-    position: absolute;
-    top: 3.75rem;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 60%;
-    height: calc(100vh - 60px);
-    background: rgb(0, 0, 0, 0.1);
-    backdrop-filter: blur(50px);
-    padding: 1rem 2rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 1);
     display: none;
   }
 
-  #toggle-menu:checked + .nav-list {
+  .nav-list-sidebar {
+    position: absolute;
+    top: 3.75rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background: #f6f6f6;
+    padding: 1.5rem 0;
+    display: none;
+  }
+
+  .nav-list-sidebar a {
+    font-size: 1.25rem;
+  }
+
+  #toggle-menu:checked + .nav-list-sidebar {
     display: flex;
   }
 
@@ -106,24 +113,22 @@
     width: 90%;
   }
 
-  .contact-info{
+  .contact-info {
     width: 100%;
   }
 }
 
-@media (max-width: 450px){
+@media (max-width: 450px) {
+  .about-container-img .about-img-1 .cake-2 {
+    display: none;
+  }
+  .about-container-img .about-img-2 .cupcake {
+    display: none;
+  }
 
-.about-container-img .about-img-1 .cake-2{
-  display: none;
-}
-.about-container-img .about-img-2 .cupcake{
-display: none;
-}
-
-.about-img-1,.about-img-2{
-  width: 50%;
-  margin: .4rem;
-}
-
-
+  .about-img-1,
+  .about-img-2 {
+    width: 50%;
+    margin: 0.4rem;
+  }
 }

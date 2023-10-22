@@ -4,34 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CasaCake</title>
-    <link rel="stylesheet" type=text/css href="/styles.css" />
-    <link rel="stylesheet" type=text/css href="/css/mediaqueries.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type=text/css href="/styles.css" /> <link
+    rel="stylesheet" type=text/css href="/css/mediaqueries.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header class="header">
       <!--NAVBAR-->
       <img src="/assets/logo.png" alt="placeholder" class="logo" />
-      <nav class="navbar">
-        <label for="toggle-menu" class="menu-label">
-          <img src="/assets/hamburguesa.png" alt="menu"> 
-        </label>
-        <input type="checkbox"  id="toggle-menu">
-        
-        <ul class="nav-list">
-          <li class="font"><a href="#hero">Home</a></li>
-          <li><a href="#about">Nosotros</a></li>
-          <li><a href="#info">Ventajas</a></li>
-          <li><a href="#catalog">Catalogo</a></li>
-          <li><a href="#contact">Contactanos</a></li>
-        </ul>
-        <div class="usuario">
+      <label for="toggle-menu" class="menu-label">
+        <img src="/assets/hamburguesa.png" alt="menu" />
+      </label>
+      <input type="checkbox" id="toggle-menu" />
+      <!--NAVBAR MOBILE-->
+      <div class="nav-list-sidebar">
+        <a href="#hero">Home</a>
+        <a href="#about">Nosotros</a>
+        <a href="#info">Ventajas</a>
+        <a href="#catalog">Catalogo</a>
+        <a href="#contact">Contactanos</a>
         <a href="/login.html">Inicia Sesión </a>
         <a href="/registro.html">Registrate</a>
       </div>
-      </nav>
-      
+      <!--NAVBAR PC-->
+      <div class="nav-list">
+        <div class="nav-page">
+          <a href="#hero">Home</a>
+          <a href="#about">Nosotros</a>
+          <a href="#info">Ventajas</a>
+          <a href="#catalog">Catalogo</a>
+          <a href="#contact">Contactanos</a>
+        </div>
+        <div class="nav-user">
+          <a href="/login.html">Inicia Sesión </a>
+        </div>
+      </div>
     </header>
     <main>
       <!--HERO-->
