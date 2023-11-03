@@ -25,6 +25,8 @@
 
   .nav-list-sidebar a {
     font-size: 1.25rem;
+    font-family: Helvetica, sans-serif;
+    color: #bb053a ;
   }
 
   #toggle-menu:checked + .nav-list-sidebar {

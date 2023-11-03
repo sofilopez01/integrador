@@ -85,17 +85,21 @@ body {
   gap: 2rem;
 }
 
-.nav-list a {
-  font-size: 16px;
+.nav-page a {
+  font-size: 1rem;
   font-weight: 600px;
   color: var(--secondary);
 }
 
-.nav-list a:hover {
+.nav-page :hover {
   color: var(--tertiary);
   border-bottom: solid 2px #bb053a;
 }
 
+.nav-list .nav-user .logo-user{
+  width: 20px;
+
+}
 .nav-list-sidebar {
   display: none;
 }
