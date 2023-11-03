@@ -1,3 +1,74 @@
-html{
+html {
   scroll-behavior: smooth;
 }
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slider-up {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slider-left {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slider-right {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.hero-tittle {
+  animation: fade 0.8s ease-in, slider-up 0.9s ease-in-out;
+}
+
+.hero-text {
+  opacity: 0;
+  animation: fade 0.9s ease-in forwards, slider-up 0.8s ease-in-out;
+  animation-delay: 0.2s;
+}
+.button-container {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slider-left 1.2s ease-in-out;
+  animation-delay: 0.5s;
+}
+
+.hero-img {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slider-right 1.2s ease-in-out;
+  animation-delay: 0.2s;
+}
+
+
+.about-text {
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slider-right 1.3s ease-in-out;
+  animation-delay: 0.3s;
+}
+ 
+.about-container-img{
+  opacity: 0;
+  animation: fade 0.8s ease-in forwards, slider-left 1.3s ease-in-out;
+  animation-delay: 0.3s;
+}
+
