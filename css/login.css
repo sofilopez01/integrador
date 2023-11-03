@@ -120,3 +120,11 @@ body {
 .register-link p a:hover{
   text-align: underline;
 }
+
+.back{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
